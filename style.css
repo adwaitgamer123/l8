@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: grey;
+    font-family: cursive;
+}
+h1{
+    color: blue;
+}
+a{
+    color: purple;
+}
+a:hover{
+    color: aqua;
+}
+ul>li{
+    font-weight: bold;
+}
+ul li:hover{
+    color: aquamarine;
+}
+ul li:nth-child(4){background-color: rgb(228, 76, 102);}
+ul li::before{
+    content: "🚀";
+}
+a::after{
+    content: "🚀";
+}
+p::first-letter{
+    font-size: 100px;
+    color: chocolate;
+}
